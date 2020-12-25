@@ -2,11 +2,17 @@
 <html>
 <title>HTML Tutorial</title>
 <link rel="stylesheet" href="./style.css">
-<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
 
 <body>
-
-    <section class="left-bar">
+    <section class="left-bar" data-aos="fade-right">
         <div class="leftbar-items">
             <div class="logo">
                 <img src="https://marketifythemes.com/html/arlo/img/logo/light.png" alt="">
@@ -40,324 +46,355 @@
             </div>
         </div>
     </section>
-    <section class="wrapper">
-        <section class="slider-section" style="background-image: url(https://marketifythemes.com/html/arlo/img/slider/6.jpg);">
-            <div class="slider-items">
-                <div class="circle" style="background-image: url(https://marketifythemes.com/html/arlo/img/about/3.jpg);"></div>
-                <h3>ALBERT <span> WALKERS</span></h3>
-                <p>I'm a Web Developer</p>
+    <div class="wrapper">
+        <section class="slider-section" data-aos="fade-up" style="background-image: url(https://marketifythemes.com/html/arlo/img/slider/6.jpg);">
+            <div class="container">
+                <div class="slider-items">
+                    <div class="circle" style="background-image: url(https://marketifythemes.com/html/arlo/img/about/3.jpg);"></div>
+                    <h3>ALBERT <span> WALKERS</span></h3>
+                    <p>I'm a Web Developer</p>
+                </div>
             </div>
         </section>
-        <section class="about-section">
-            <div class="about-items">
-                <div class="info">
-                    <h5>BIOGRAPHY</h5>
-                    <h3>ABOUT ME</h3>
-                </div>
-                <div class="biography-item">
-                    <div class="item">
-                        <img width="100%" height="100%" src="https://marketifythemes.com/html/arlo/img/about/2.jpg" alt="">
-                    </div>
+        <section class="about-section" data-aos="fade-right">
+            <div class="container">
+                <div class="about-items">
                     <div class="info">
-                        <h5>I'm Albert Walkers and <span> Freelancer</span></h5>
-                        <p>Hi! My name is <span> <em>Albert Walkers.</em> </span> I am a Web Developer, and I'm <br> very passionate and dedicated to my work. With 20 years <br> experience as a professional Web developer, I have acquired the <br> skills
-                            and knowledge necessary to make your project a success
-                        </p>
-                        <div class="interest">
-                            <ul class="location">
-                                <li>
-                                    <i class="fa fa-gift" aria-hidden="true"></i>
-                                    <h5>Birthday:<br><span> 01.07.1990</span></h5>
-                                </li>
-                                <li>
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    <h5>Location:<br><span>544 Place, Plano, USA</span></h5>
-                                </li>
-                                <li>
-                                    <i class="fa fa-book" aria-hidden="true"></i>
-                                    <h5>Study:<br><span> Univercity of Chicago</span></h5>
-                                </li>
-                                <span> 
+                        <h5>BIOGRAPHY</h5>
+                        <h3>ABOUT ME</h3>
+                    </div>
+                    <div class="biography-item">
+                        <div class="item" data-aos="fade-up-right">
+                            <img width="100%" height="100%" src="https://marketifythemes.com/html/arlo/img/about/2.jpg" alt="">
+                        </div>
+                        <div class="info" data-aos="fade-up-left">
+                            <h5>I'm Albert Walkers and <span> Freelancer</span></h5>
+                            <p>Hi! My name is <span> <em>Albert Walkers.</em> </span> I am a Web Developer, and I'm <br> very passionate and dedicated to my work. With 20 years <br> experience as a professional Web developer, I have acquired the <br> skills
+                                and knowledge necessary to make your project a success
+                            </p>
+                            <div class="interest">
+                                <ul class="location">
+                                    <li>
+                                        <i class="fa fa-gift" aria-hidden="true"></i>
+                                        <h5>Birthday:<br><span> 01.07.1990</span></h5>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <h5>Location:<br><span>544 Place, Plano, USA</span></h5>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-book" aria-hidden="true"></i>
+                                        <h5>Study:<br><span> Univercity of Chicago</span></h5>
+                                    </li>
+                                    <span> 
                                 <li>
                                     <i class="fa fa-phone" aria-hidden="true"></i>
                                     <h5>Phone:<br><span>+77 022 177 05 05</span></h5>
-                                </li>
-                                </span>
-                            </ul>
-                            <ul class="degree">
-                                <li>
-                                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                                    <h5>Age: <span class="age">30</span></h5>
-                                </li>
-                                <li>
-                                    <i class="fa fa-gamepad" aria-hidden="true"></i>
-                                    <h5>Interests: <span>Playstation, <br> Reading</span></h5>
-                                </li>
-                                <li>
-                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                                    <h5>Degree:<br><span>Master</span></h5>
-                                </li>
-                                <li>
-                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                    <h5>Mail:<br><span>mymail@gmail.com</span></h5>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="cv">
-                            <a href="">Download CV</a>
-                            <a href="">Send Message</a>
+                                    </li>
+                                    </span>
+                                </ul>
+                                <ul class="degree">
+                                    <li>
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <h5>Age: <span class="age">30</span></h5>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-gamepad" aria-hidden="true"></i>
+                                        <h5>Interests: <span>Playstation, <br> Reading</span></h5>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                        <h5>Degree:<br><span>Master</span></h5>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        <h5>Mail:<br><span>mymail@gmail.com</span></h5>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cv">
+                                <a href="">Download CV</a>
+                                <a href="">Send Message</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="experience-section">
-            <div class="experience-items">
-                <div class="title">
-                    <h5>BIOGRAPHY</h5>
-                    <h3>ABOUT ME</h3>
-                </div>
-                <div class="design">
-                    <div class="item">
-                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-                        <h3>Creative Design</h3>
-                        <p>Web design is a similar <br> process of creation, <br> with the intention of <br> presenting...</p>
+            <div class="container">
+                <div class="experience-items">
+                    <div class="title">
+                        <h5>BIOGRAPHY</h5>
+                        <h3>ABOUT ME</h3>
                     </div>
-                    <div class="item">
-                        <i class="fa fa-code" aria-hidden="true"></i>
-                        <h3>Web <br> Development</h3>
-                        <p>Web design is a similar <br> process of creation, <br> with the intention of <br> presenting...</p>
-                    </div>
-                    <div class="item">
-                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                        <h3>Brand Identity</h3>
-                        <p>Web design is a similar <br> process of creation, <br> with the intention of <br> presenting...</p>
-                    </div>
-                    <div class="item">
-                        <i class="fa fa-camera" aria-hidden="true"></i>
-                        <h3>Adobe <br> Photoshop</h3>
-                        <p>Web design is a similar <br> process of creation, <br> with the intention of <br> presenting...</p>
-                    </div>
-                    <div class="item">
-                        <i class="fa fa-ils" aria-hidden="true"></i>
-                        <h3>Adobe Illustrator</h3>
-                        <p>Web design is a similar <br> process of creation, <br> with the intention of <br> presenting...</p>
-                    </div>
-                    <div class="item">
-                        <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        <h3>Social Media</h3>
-                        <p>Web design is a similar <br> process of creation, <br> with the intention of <br> presenting...</p>
+                    <div class="design">
+                        <div class="item" data-aos="fade-up">
+                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                            <h3>Creative Design</h3>
+                            <p>Web design is a similar <br> process of creation, <br> with the intention of <br> presenting...</p>
+                        </div>
+                        <div class="item" data-aos="fade-down">
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                            <h3>Web <br> Development</h3>
+                            <p>Web design is a similar <br> process of creation, <br> with the intention of <br> presenting...</p>
+                        </div>
+                        <div class="item" data-aos="fade-right">
+                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                            <h3>Brand Identity</h3>
+                            <p>Web design is a similar <br> process of creation, <br> with the intention of <br> presenting...</p>
+                        </div>
+                        <div class="item" data-aos="fade-left">
+                            <i class="fa fa-camera" aria-hidden="true"></i>
+                            <h3>Adobe <br> Photoshop</h3>
+                            <p>Web design is a similar <br> process of creation, <br> with the intention of <br> presenting...</p>
+                        </div>
+                        <div class="item" data-aos="fade-up-right">
+                            <i class="fa fa-ils" aria-hidden="true"></i>
+                            <h3>Adobe Illustrator</h3>
+                            <p>Web design is a similar <br> process of creation, <br> with the intention of <br> presenting...</p>
+                        </div>
+                        <div class="item" data-aos="fade-down">
+                            <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            <h3>Social Media</h3>
+                            <p>Web design is a similar <br> process of creation, <br> with the intention of <br> presenting...</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="development-section">
-            <div class="development-items">
-                <div class="development-item">
-                    <h3>In a <span>short time,</span> I have been able to <br> achieve excellence in all areas of app <br> and web development.</h3>
-                    <p>I provide cost-effective and high quality products <br> to meet our Clients’ needs of timely delivery <br> World Wide. I want to be local in a global world <br> to be where our Customers need our services <br> customers need our services.</p>
-                </div>
-                <div class="development-item">
-                    <div class="item">
-                        <div class="title">
-                            <h3>Web Development</h3>
-                            <h3>95%</h3>
-                        </div>
-                        <div class="line">
-                            <div class="line-item"></div>
-                        </div>
+            <div class="container">
+                <div class="development-items">
+                    <div class="development-item" data-aos="flip-left">
+                        <h3>In a <span>short time,</span> I have been able to <br> achieve excellence in all areas of app <br> and web development.</h3>
+                        <p>I provide cost-effective and high quality products <br> to meet our Clients’ needs of timely delivery <br> World Wide. I want to be local in a global world <br> to be where our Customers need our services <br> customers need our
+                            services.
+                        </p>
                     </div>
-                    <div class="item">
-                        <div class="title">
-                            <h3>Brand Identity</h3>
-                            <h3>80%</h3>
+                    <div class="development-item" data-aos="flip-right">
+                        <div class="item">
+                            <div class="title">
+                                <h3>Web Development</h3>
+                                <h3>95%</h3>
+                            </div>
+                            <div class="line">
+                                <div class="line-item"></div>
+                            </div>
                         </div>
-                        <div class="line">
-                            <div class="line-item2"></div>
+                        <div class="item">
+                            <div class="title">
+                                <h3>Brand Identity</h3>
+                                <h3>80%</h3>
+                            </div>
+                            <div class="line">
+                                <div class="line-item2"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="title">
-                            <h3>Javascript</h3>
-                            <h3>90%</h3>
+                        <div class="item">
+                            <div class="title">
+                                <h3>Javascript</h3>
+                                <h3>90%</h3>
+                            </div>
+                            <div class="line">
+                                <div class="line-item3"></div>
+                            </div>
                         </div>
-                        <div class="line">
-                            <div class="line-item3"></div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="title">
-                            <h3>WordPress</h3>
-                            <h3>85%</h3>
-                        </div>
-                        <div class="line">
-                            <div class="line-item4"></div>
+                        <div class="item">
+                            <div class="title">
+                                <h3>WordPress</h3>
+                                <h3>85%</h3>
+                            </div>
+                            <div class="line">
+                                <div class="line-item4"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="featured-section">
-            <div class="featured-items">
-                <div class="title">
-                    <h5>PORTFOLIO</h5>
-                    <h3>FEATURED WORKS</h3>
+            <div class="container">
+                <div class="featured-items">
+                    <div class="title">
+                        <h5>PORTFOLIO</h5>
+                        <h3>FEATURED WORKS</h3>
+                    </div>
+                    <ul class="category">
+                        <li>
+                            <a class="all" href="">All</a>
+                        </li>
+                        <li>
+                            <a href="">Vimeo Video</a>
+                        </li>
+                        <li>
+                            <a href="">Youtube Video</a>
+                        </li>
+                        <li>
+                            <a href="">Popup Image</a>
+                        </li>
+                    </ul>
+                    <div class="feature">
+                        <div class="feature-item" data-aos="flip-up">
+                            <img width="100%" height="100%" src="https://t4.ftcdn.net/jpg/02/85/98/31/360_F_285983137_YVgUzZwvYi9PzkXU0MsPsyuWMgCj83DW.jpg" alt="">
+                        </div>
+                        <div class="feature-item" data-aos="flip-down">
+                            <img width="100%" height="100%" src="https://t3.ftcdn.net/jpg/00/73/23/92/240_F_73239250_x5oOm6eftE8ZqltfytARxEK3NnJJf9HT.jpg" alt="">
+                        </div>
+                        <div class="feature-item" data-aos="zoom-in">
+                            <img width="100%" height="100%" src="https://t4.ftcdn.net/jpg/01/31/70/65/240_F_131706583_tdXRbQVrk1ZSJedQQaVs6gS7DRfmRIdA.jpg" alt="">
+                        </div>
+                        <div class="feature-item" data-aos="zoom-in-up">
+                            <img width="100%" height="100%" src="https://t3.ftcdn.net/jpg/02/69/87/04/240_F_269870413_IdnpSWcfCQO7kciAgPZ3y4g38rQLWpHf.jpg" alt="">
+                        </div>
+                        <div class="feature-item" data-aos="zoom-in-down">
+                            <img width="100%" height="100%" src="https://t3.ftcdn.net/jpg/02/51/35/32/240_F_251353227_TyYNpqHIz2Btmsvi5Tc3jFGjA2XWDBwX.jpg" alt="">
+                        </div>
+                        <div class="feature-item" data-aos="zoom-in-up">
+                            <img width="100%" height="100%" src="https://t4.ftcdn.net/jpg/02/84/86/81/240_F_284868136_Rfu4KkdSzTqwi7Z7IJBRqGkZzvSiiSiz.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
-                <ul class="category">
-                    <li>
-                        <a class="all" href="">All</a>
-                    </li>
-                    <li>
-                        <a href="">Vimeo Video</a>
-                    </li>
-                    <li>
-                        <a href="">Youtube Video</a>
-                    </li>
-                    <li>
-                        <a href="">Popup Image</a>
-                    </li>
-                </ul>
-                <div class="feature">
-                    <div class="feature-item">
-                        <img width="100%" height="100%" src="https://t4.ftcdn.net/jpg/02/85/98/31/360_F_285983137_YVgUzZwvYi9PzkXU0MsPsyuWMgCj83DW.jpg" alt="">
-                    </div>
-                    <div class="feature-item">
-                        <img width="100%" height="100%" src="https://t3.ftcdn.net/jpg/00/73/23/92/240_F_73239250_x5oOm6eftE8ZqltfytARxEK3NnJJf9HT.jpg" alt="">
-                    </div>
-                    <div class="feature-item">
-                        <img width="100%" height="100%" src="https://t4.ftcdn.net/jpg/01/31/70/65/240_F_131706583_tdXRbQVrk1ZSJedQQaVs6gS7DRfmRIdA.jpg" alt="">
-                    </div>
-                    <div class="feature-item">
-                        <img width="100%" height="100%" src="https://t3.ftcdn.net/jpg/02/69/87/04/240_F_269870413_IdnpSWcfCQO7kciAgPZ3y4g38rQLWpHf.jpg" alt="">
-                    </div>
-                    <div class="feature-item">
-                        <img width="100%" height="100%" src="https://t3.ftcdn.net/jpg/02/51/35/32/240_F_251353227_TyYNpqHIz2Btmsvi5Tc3jFGjA2XWDBwX.jpg" alt="">
-                    </div>
-                    <div class="feature-item">
-                        <img width="100%" height="100%" src="https://t4.ftcdn.net/jpg/02/84/86/81/240_F_284868136_Rfu4KkdSzTqwi7Z7IJBRqGkZzvSiiSiz.jpg" alt="">
+            </div>
+        </section>
+        <section class="art-section" data-aos="fade-up" style="background-image: url(https://marketifythemes.com/html/arlo/img/slider/3.jpg);">
+            <div class="container">
+                <div class="art-items">
+                    <div class="art-item">
+                        <p>Really the Code, Support, and design are awesome and its good support <br> they are giving. They give an instant solution to our needs. Really awesome. <br> I will strongly recommend to my friends. Great template, even better service!
+                        </p>
+                        <div class="info">
+                            <div class="circle" style="background-image: url(https://marketifythemes.com/html/arlo/img/about/3.jpg);"></div>
+                            <div class="item">
+                                <h5>PORTFOLIO</h5>
+                                <h3>FEATURED WORKS</h3>
+                            </div>
+                        </div>
+                        <h6>"</h6>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="art-section" style="background-image: url(https://marketifythemes.com/html/arlo/img/slider/3.jpg);">
-            <div class="art-items">
-                <div class="art-item">
-                    <p>Really the Code, Support, and design are awesome and its good support <br> they are giving. They give an instant solution to our needs. Really awesome. <br> I will strongly recommend to my friends. Great template, even better service!</p>
-                    <div class="info">
-                        <div class="circle" style="background-image: url(https://marketifythemes.com/html/arlo/img/about/3.jpg);"></div>
-                        <div class="item">
-                            <h5>PORTFOLIO</h5>
-                            <h3>FEATURED WORKS</h3>
-                        </div>
+        <section class="working-section" data-aos="fade-down-right">
+            <div class="container">
+                <div class="working-items">
+                    <div class="title">
+                        <h5>PORTFOLIO</h5>
+                        <h3>FEATURED WORKS</h3>
                     </div>
-                    <h6>"</h6>
-                </div>
-            </div>
-        </section>
-        <section class="working-section">
-            <div class="working-items">
-                <div class="title">
-                    <h5>PORTFOLIO</h5>
-                    <h3>FEATURED WORKS</h3>
-                </div>
-                <div class="working-item">
-                    <div class="item">
-                        <div class="years">
-                            2017 - Current
+                    <div class="working-item">
+                        <div class="item" data-aos="fade-up">
+                            <div class="years">
+                                2017 - Current
+                            </div>
+                            <img src="https://marketifythemes.com/html/arlo/img/timeline/envato.png" alt="">
+                            <h4>Full Stack Developer</h4>
+                            <p>With 20 years experience as a professional <br> Web developer, I have acquired the skills <br> and knowledge necessary to make your <br> project a success.</p>
                         </div>
-                        <img src="https://marketifythemes.com/html/arlo/img/timeline/envato.png" alt="">
-                        <h4>Full Stack Developer</h4>
-                        <p>With 20 years experience as a professional <br> Web developer, I have acquired the skills <br> and knowledge necessary to make your <br> project a success.</p>
-                    </div>
-                    <div class="item">
-                        <div class="years">
-                            2017 - Current
+                        <div class="item" data-aos="fade-down">
+                            <div class="years">
+                                2017 - Current
+                            </div>
+                            <img src="https://marketifythemes.com/html/arlo/img/timeline/envato.png" alt="">
+                            <h4>Full Stack Developer</h4>
+                            <p>With 20 years experience as a professional <br> Web developer, I have acquired the skills <br> and knowledge necessary to make your <br> project a success.</p>
                         </div>
-                        <img src="https://marketifythemes.com/html/arlo/img/timeline/envato.png" alt="">
-                        <h4>Full Stack Developer</h4>
-                        <p>With 20 years experience as a professional <br> Web developer, I have acquired the skills <br> and knowledge necessary to make your <br> project a success.</p>
-                    </div>
-                    <div class="item">
-                        <div class="years">
-                            2014 - 2017
+                        <div class="item" data-aos="fade-left">
+                            <div class="years">
+                                2014 - 2017
+                            </div>
+                            <img src="https://marketifythemes.com/html/arlo/img/timeline/envato.png" alt="">
+                            <h4>Full Stack Developer</h4>
+                            <p>With 20 years experience as a professional <br> Web developer, I have acquired the skills <br> and knowledge necessary to make your <br> project a success.</p>
                         </div>
-                        <img src="https://marketifythemes.com/html/arlo/img/timeline/envato.png" alt="">
-                        <h4>Full Stack Developer</h4>
-                        <p>With 20 years experience as a professional <br> Web developer, I have acquired the skills <br> and knowledge necessary to make your <br> project a success.</p>
-                    </div>
-                    <div class="item">
-                        <div class="years">
-                            2012 - 2014
+                        <div class="item" data-aos="fade-down-right">
+                            <div class="years">
+                                2012 - 2014
+                            </div>
+                            <img src="https://marketifythemes.com/html/arlo/img/timeline/envato.png" alt="">
+                            <h4>Full Stack Developer</h4>
+                            <p>With 20 years experience as a professional <br> Web developer, I have acquired the skills <br> and knowledge necessary to make your <br> project a success.</p>
                         </div>
-                        <img src="https://marketifythemes.com/html/arlo/img/timeline/envato.png" alt="">
-                        <h4>Full Stack Developer</h4>
-                        <p>With 20 years experience as a professional <br> Web developer, I have acquired the skills <br> and knowledge necessary to make your <br> project a success.</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="latest-section">
-            <div class="latest-items">
-                <div class="title">
-                    <h5>NEWS</h5>
-                    <h3>LATEST NEWS</h3>
-                </div>
-                <div class="latest-item">
-                    <div class="item">
-                        <div class="media" style="background-image: url(https://marketifythemes.com/html/arlo/img/news/3.jpg);"></div>
-                        <div class="info">
-                            <h4>By <span> Alan Walker</span> 03 July <br> 2020</h4>
-                            <a href="">The Role of <br> Design in <br> Development</a>
-                        </div>
+            <div class="container">
+                <div class="latest-items">
+                    <div class="title">
+                        <h5>NEWS</h5>
+                        <h3>LATEST NEWS</h3>
                     </div>
-                    <div class="item">
-                        <div class="media" style="background-image: url(https://marketifythemes.com/html/arlo/img/news/2.jpg);"></div>
-                        <div class="info">
-                            <h4>By <span> Alan Walker</span> 03 July <br> 2020</h4>
-                            <a href="">The Role of <br> Design in <br> Development</a>
+                    <div class="latest-item">
+                        <div class="item" data-aos="zoom-in">
+                            <div class="media" style="background-image: url(https://marketifythemes.com/html/arlo/img/news/3.jpg);"></div>
+                            <div class="info">
+                                <h4>By <span> Alan Walker</span> 03 July <br> 2020</h4>
+                                <a href="">The Role of <br> Design in <br> Development</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="media" style="background-image: url(https://marketifythemes.com/html/arlo/img/news/1.jpg);"></div>
-                        <div class="info">
-                            <h4>By <span> Alan Walker</span> 03 July <br> 2020</h4>
-                            <a href="">The Role of <br> Design in <br> Development</a>
+                        <div class="item" data-aos="zoom-in-up">
+                            <div class="media" style="background-image: url(https://marketifythemes.com/html/arlo/img/news/2.jpg);"></div>
+                            <div class="info">
+                                <h4>By <span> Alan Walker</span> 03 July <br> 2020</h4>
+                                <a href="">The Role of <br> Design in <br> Development</a>
+                            </div>
+                        </div>
+                        <div class="item" data-aos="zoom-in-down">
+                            <div class="media" style="background-image: url(https://marketifythemes.com/html/arlo/img/news/1.jpg);"></div>
+                            <div class="info">
+                                <h4>By <span> Alan Walker</span> 03 July <br> 2020</h4>
+                                <a href="">The Role of <br> Design in <br> Development</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <footer class="footer-section">
-            <div class="footer-items">
-                <div class="title">
-                    <h5>CONTACT</h5>
-                    <h3>GET IN TOUCH</h3>
-                </div>
-                <div class="footer-item">
-                    <div class="item">
-                        <p>Please fill out the form on this section to contact with <br> me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday <br> through Friday</p>
-                        <input class="register" placeholder="Name" type="text">
-                        <input class="register" placeholder="Email" type="email">
-                        <input class="message" placeholder="Message" type="text">
-                        <button type="submit">Send Message</button>
+            <div class="container">
+                <div class="footer-items">
+                    <div class="title">
+                        <h5>CONTACT</h5>
+                        <h3>GET IN TOUCH</h3>
                     </div>
-                    <div class="map-item">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5404230563886!2d-0.12174238469180741!3d51.50330061882455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2sge!4v1608124055398!5m2!1sen!2sge"
-                            width="100%" height="400px" frameborder="0" style="border:0; border-radius: 10px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <div class="footer-item">
+                        <div class="item">
+                            <p>Please fill out the form on this section to contact with <br> me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday <br> through Friday</p>
+                            <input class="register" placeholder="Name" type="text">
+                            <input class="register" placeholder="Email" type="email">
+                            <input class="message" placeholder="Message" type="text">
+                            <button type="submit">Send Message</button>
+                        </div>
+                        <div class="map-item">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5404230563886!2d-0.12174238469180741!3d51.50330061882455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2sge!4v1608124055398!5m2!1sen!2sge"
+                                width="100%" height="400px" frameborder="0" style="border:0; border-radius: 10px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </footer>
         <section class="copyright-section">
-            <div class="copyright-items">
-                <div class="copyright-item">
-                    <h3>Copyright © 2019 - 2020. Template has been designed by Marketify
-                    </h3>
+            <div class="container">
+                <div class="copyright-items">
+                    <div class="copyright-item">
+                        <h3>Copyright © 2019 - 2020. Template has been designed by Marketify
+                        </h3>
+                    </div>
                 </div>
             </div>
         </section>
-    </section>
+    </div>
+
+
 
 </body>
 
 </html>
+
+<script type="text/javascript">
+    AOS.init({
+        duration: 1500,
+    })
+</script>
