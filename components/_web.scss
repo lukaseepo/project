@@ -56,14 +56,6 @@
     }
 }
 
-.container {
-    width: 905px;
-    margin: auto;
-    @media screen and (max-width: 905px) {
-        width: 100%;
-    }
-}
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -224,12 +216,14 @@
                         width: 360px;
                         justify-content: space-between;
                         margin-top: 70px;
+                        flex-wrap: wrap;
                         @media only screen and (max-width: 1300px) {
-                            display: none;
+                            width: 100%;
                         }
                         a {
                             width: 180px;
                             height: 40px;
+                            margin-top: 20px;
                             background-color: $orange;
                             color: $white;
                             align-items: center;

@@ -9,6 +9,31 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 1150px) {
+  * {
+    /*CSS transitions*/
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    animation: none !important;
+  }
+}
+
+.container {
+  width: 905px;
+  margin: auto;
+}
+
+@media screen and (max-width: 905px) {
+  .container {
+    width: 100%;
+  }
+}
+
 a {
   text-decoration: none;
 }
