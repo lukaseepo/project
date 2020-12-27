@@ -566,12 +566,6 @@
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 800px) {
-  .wrapper .development-section .development-items .development-item .item .line {
-    display: none;
-  }
-}
-
 .wrapper .development-section .development-items .development-item .item .line .line-item {
   height: 10px;
   background-color: #ff9800;
